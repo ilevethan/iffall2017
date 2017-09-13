@@ -1,0 +1,45 @@
+body {
+	text-align: center;
+}
+
+
+h1{
+	font-family: 'Abril Fatface', cursive;
+	text-decoration: underline;
+	font-size: 50px;
+	letter-spacing: 8px;
+	color : #F42B93;
+}
+
+h2{
+	font-family: 'Abril Fatface', cursive;
+	text-decoration: underline;
+	font-size: 25px;
+	font-style: italic;
+	letter-spacing: 5px;
+	color : #F4E22B;
+
+}
+
+span.verse-1 {
+	font-family: "work sans", sans-serif;
+	font-size: 15px;
+	color : #F694FC;	
+	font-family: "work sans", sans-serif;
+	line-height: 20px;
+}
+
+span.chorus{
+	font-family:"work sans", sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color : #ADF8EF;
+	font-style: italic;
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+
+html{
+	background-color: #3D1481
+
+}
