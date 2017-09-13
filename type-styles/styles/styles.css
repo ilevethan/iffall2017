@@ -1,0 +1,127 @@
+body {
+	font-family: arial;
+}
+h1{
+	font-family: "raleway";
+	font-size: 40px;
+}
+
+h2 {
+	color: rgba(0, 0, 0, .4);
+}
+
+span.first {
+	font-size: 24px;
+}
+
+span.second{
+	font-size: 16px;
+	color: rgba(0, 0, 0, .4);
+}
+
+span.third{
+	font-weight: normal;
+	font-family: "raleway";
+	font-size: 24px;
+}
+
+span.fourth{
+	font-weight: bold;
+	font-family: "raleway";
+	font-size: 24px;
+}
+
+span.fifth{
+	font-style: normal;
+	font-family: "raleway";
+	font-size: 24px;
+}
+
+span.sixth{
+	font-style: italic;
+	font-family: "raleway";
+	font-size: 24px;
+}
+
+span.seventh{
+	font-style: normal;
+	font-family: "raleway";
+	font-size: 24px;
+	letter-spacing: normal
+}
+
+span.eighth{
+	font-style: normal;
+	font-family: "raleway";
+	font-size: 24px;
+	letter-spacing: .3em;
+}
+
+span.ninth{
+font-style: normal;
+	font-family: "raleway";
+	font-size: 24px;
+	letter-spacing: -.06em;	
+}
+
+span.tenth{
+	font-style: normal;
+	font-family: "raleway";
+	font-size: 24px;
+	letter-spacing: normal;	
+	text-decoration: none;
+}
+
+span.eleventh{
+	font-style: normal;
+	font-family: "raleway";
+	font-size: 24px;
+	letter-spacing: normal;	
+	text-decoration: underline;
+}
+
+span.twelfth{
+	font-style: normal;
+	font-family: "raleway";
+	font-size: 24px;
+	letter-spacing: normal;	
+	text-decoration: line-through;
+}
+
+span.thirteenth{
+	font-style: normal;
+	font-family: "raleway";
+	font-size: 24px;
+	letter-spacing: normal;	
+	text-decoration: overline;
+}
+	
+span.fourteenth{
+	font-style: normal;
+	font-family: "raleway";
+	font-size: 24px;
+	letter-spacing: normal;	
+	text-transform: none;
+}
+span.fifteenth{
+	font-style: normal;
+	font-family: "raleway";
+	font-size: 24px;
+	letter-spacing: normal;	
+	text-transform: uppercase;
+}
+
+span.sixteenth{
+	font-style: normal;
+	font-family: "raleway";
+	font-size: 24px;
+	letter-spacing: normal;	
+	text-transform: lowercase;
+}
+span.seventeenth{
+	font-style: normal;
+	font-family: "raleway";
+	font-size: 24px;
+	letter-spacing: normal;	
+	text-transform: capitalize;
+}
