@@ -1,0 +1,46 @@
+body {
+	text-align: center;
+	background-image: url("../images/flowers-leaves063_copy.jpg")
+}
+
+
+h1{
+	font-family: 'Abril Fatface', cursive;
+	text-decoration: underline;
+	font-size: 50px;
+	letter-spacing: 8px;
+	color : #F42B93;
+}
+
+h2{
+	font-family: 'Abril Fatface', cursive;
+	text-decoration: underline;
+	font-size: 25px;
+	font-style: italic;
+	letter-spacing: 5px;
+	color : #7E2BF4;
+
+}
+
+span.verse-1 {
+	font-family: "work sans", sans-serif;
+	font-size: 15px;
+	color : #F42B93;	
+	font-family: "work sans", sans-serif;
+	line-height: 20px;
+}
+
+span.chorus{
+	font-family:"work sans", sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color : #21D1A4;
+	font-style: italic;
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+
+html{
+	background-color: #3D1481
+
+}
