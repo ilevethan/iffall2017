@@ -1,0 +1,36 @@
+#one{
+	float: right;
+}
+
+#two{
+	position: absolute;
+	right: 200px;
+	bottom: -200px;
+}
+
+
+#three{
+	top: 0px;
+	right: 0px;
+	background-color: green;
+	position: fixed;
+}
+
+#four{
+	background-color: red;
+ 	margin-left: 320px;
+ 	margin-top: 20px;
+ 	z-index: 1000;
+ 	position: absolute;
+}
+
+#five{
+	background-color: black;
+/*	margin-top: 20px;
+*//*margin-right: 500;
+*/	position: absolute;
+	margin-left: 330px;
+	margin-top:30px;
+
+
+}
