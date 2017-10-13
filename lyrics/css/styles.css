@@ -1,3 +1,116 @@
 body{
 	background-image: url("../flowers-leaves065.jpg");
+	background-size: 50%;
+}
+
+div#left{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 50%;
+}
+
+div#right{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 50%;
+	right: 0%;
+}
+
+div#song-info{
+	width: 100%;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	position: absolute;
+}
+
+p.song-title{
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+	color: #e73f64;
+	font-size: 60px;
+	line-height: 1;
+
+}
+
+p.artist{
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+	color: #023fb1;
+	font-size: 40px;
+	line-height: 1;
+}
+
+p{
+	margin: 0;
+}
+
+div#right > div{
+	width: 363.246px;
+	height: 368.867px;
+	border: 3px solid;
+	border-color: #e73f64;
+}
+
+#one, #three{
+	background-color: #f8ede1;
+
+}
+
+#two, #four{
+	background-color: #e73f64;
+}
+
+#one, #two, #three, #four{
+	right: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+#one{
+	z-index: 100;
+}
+
+#two{
+	z-index: 80;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+#three {
+	z-index: 60;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+#four{
+	z-index: 40;
+	margin-top: 45px;
+	margin-left: 45px;
+}
+
+div#right p{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	width:333.364px;
+	height: 313.56;
+	padding-right: 10px;
+	padding-left: 15px;
+	padding-top: 14px;
+/*	padding-bottom: 10px;
+*/}
+
+p#verse{
+	color: #023fb1;
+}
+
+p#chorus{
+	color: #e73f64
 }
