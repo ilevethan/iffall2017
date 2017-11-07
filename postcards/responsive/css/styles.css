@@ -1,0 +1,86 @@
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-image: url("../FoC_Computer.jpg");
+	background-size: cover;
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-color: #e9ba72;
+}
+
+#text1{
+	z-index: 500;
+	position: absolute;
+	bottom: 100px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	top: 600px;
+	font-size: 40px;
+	color: #114a8e;
+	width: 400px;
+/*	left: 100px;
+*/	text-align: center;
+}
+
+a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+/*#first{
+	position: relative;
+}*/
+
+@media screen and (max-width: 1300px){
+	/*body{
+		width: 80%;
+	}*/
+	#text1{
+		font-size: 30px;
+		width: 250px;
+		left: 70px;
+		bottom: 80px;
+		top: auto;
+	}
+}
+
+
+@media screen and (max-width: 1190px){
+	body{
+	background-image: url("../fOc_Mobile.jpg");
+	background-size: 80%;
+	background-position: top left;
+}
+	#text1{
+		font-size: 30px;
+		width: 350px;
+		left: 50px;
+		top: auto;
+		bottom: 40px;
+}
+}
+	
+@media screen and (max-width: 900px){
+	body{
+	background-image: url("../fOc_Mobile.jpg");
+	background-size: 80%;
+	background-position: top left;
+}
+	#text1{
+		font-size: 30px;
+		width: 350px;
+		left: 50px;
+		top: auto;
+		bottom: 70px;
+
+	left: 50%;
+		transform: translateX(-50%);
+

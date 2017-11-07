@@ -1,0 +1,88 @@
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-image: url("../FoC_Computer1.jpg");
+	background-size: cover;
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-color: #aedcf3;
+}
+
+#text1{
+	z-index: 500;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	color: #114a8e;
+	white-space: nowrap;
+}
+
+#text2{
+	z-index: 500;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	color: #e9ba72;
+	white-space: nowrap;
+}
+
+#first{
+	position: absolute;
+	left: 100px;
+	top: 400px;
+}
+a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+
+@media screen and (max-width: 1380px){
+	#first{
+		left: 50px;
+	}
+	#text1{
+		font-size: 30px;
+	}
+	#text2{
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 1220px){
+	#first{
+		left: 20px;
+	}
+	#text1{
+		font-size: 25px;
+		text-align: center;
+	}
+	#text2{
+		font-size: 25px;
+		text-align: center;
+	}
+}
+
+
+@media screen and (max-width: 1100px){
+	body{
+	background-image: url("../fOc_Mobile12.jpg");
+	background-size: 60%;
+	background-position: bottom center;
+}
+	#first{
+		left: 50%;
+		transform: translateX(-50%);
+		top: 200px;
+
+	}
+
+}
