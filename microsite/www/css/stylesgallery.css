@@ -5,8 +5,7 @@ h1{
 	font-size: 30px;
 	padding: 15px;
 	display: inline-block;
-	margin-top: 20px;
-	margin: 10;
+	margin-top: 23px;
 	padding: 0;
 	margin-left: 10px;
 
@@ -15,23 +14,28 @@ h1{
 
 #nav{
 	background-color: #ffe1b6;
-	margin-top: 20px;
+
+}
+
+html{
+	height: 100%
 
 }
 
 body{
 	margin: 0;
-	background-repeat: no-repeat;
-	background-size: 100%;
 	background-color: #fff5e9;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
+
 
 img{
 	position: top;
 }
 
-
-ul{
+#browser{
 	margin-top: 30px;
 	float: right;
 	display: inline;
@@ -42,10 +46,23 @@ ul{
 	font-weight: 600;
 }
 
-li{
+#browser li{
 	display: inline;
 	padding: 24.5px 15px;
 	margin-top: 20px;
+
+}
+
+#mobile{
+	font-family: 'Work Sans', sans-serif;
+	list-style-type: none;
+	text-transform: uppercase;
+	color: #b66c17;
+	font-weight: 600;
+	display: none;
+}
+
+#mobile li{
 
 }
 
@@ -58,20 +75,64 @@ a.selected{
 	color: #00233b;
 }
 
-#gallery{
-	width: 80%;
 
-}
 
 img{
-	width: 20%;
-	height: auto;
-	margin-left: 50px;
-	margin-top: 50px;
+	width: 300px;
+	height: 300;
+	margin-top: 30px;
 	display: inline;
-	float: left;
+	padding: 10px;
 }
 
-img #gallery1{
+#gallery{
+	max-width: 970px;
+	margin: auto;
+	text-align: center;
 }
 
+#gallery h1{
+	font-size: 15px;
+	font-family: 'Work Sans', sans-serif;
+	background-color: rgba(255, 225, 182, 0.9);
+	padding: 10px;
+	margin: auto;
+	width: 70px;
+	display: block;
+	margin-top: 30px;
+}
+
+footer{
+	font-size: 10px;
+	font-family: 'Crimson Text', serif;
+	color: #b66c17;
+	width: 200px;
+	margin: auto;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 900px){
+	#nav{
+		height: 200px;
+	}
+
+	#browser{
+		display: none;
+		margin-top: 25px;
+	}
+
+	#mobile{
+		display: block;
+		text-align: center;
+	}
+
+	h1{
+		text-align: center;
+		display: block;
+		margin: 0;
+		padding-top: 10px;
+	}
+
+	
+}

@@ -5,8 +5,7 @@ h1{
 	font-size: 30px;
 	padding: 15px;
 	display: inline-block;
-	margin-top: 20px;
-	margin: 10;
+	margin-top: 23px;
 	padding: 0;
 	margin-left: 10px;
 
@@ -14,17 +13,24 @@ h1{
 
 #nav{
 	background-color: #ffe1b6;
-	margin-top: 20px;
+}
+
+
+html{
+	height: 100%
+
 }
 
 body{
 	margin: 0;
-	background-color: #fff5e9;
+	background-color: #fff5e9;	
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
-#main{
+
+#browser{
 	margin-top: 30px;
 	float: right;
 	display: inline;
@@ -35,10 +41,23 @@ body{
 	font-weight: 600;
 }
 
-#main li{
+#browser li{
 	display: inline;
 	padding: 24.5px 15px;
 	margin-top: 20px;
+
+}
+
+#mobile{
+	font-family: 'Work Sans', sans-serif;
+	list-style-type: none;
+	text-transform: uppercase;
+	color: #b66c17;
+	font-weight: 600;
+	display: none;
+}
+
+#mobile li{
 
 }
 
@@ -52,27 +71,77 @@ a.selected{
 }
 
 #types1 div {
-	float: left;
 	padding: 15px;
-	margin-right: 20px;
-	margin-top: 150px;
-/*	width: 220px;
-*/}
+	display: inline-block;
+	vertical-align: top;
+}
 
+#types2 div {
+	padding: 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#types1, #types2{
+	width: 790px;
+	margin: auto;
+}
 
 
 img{
-	width: 200px;
-	height: 200px;
+	width: 190px;
+	height: 190px;
 	margin: auto;
 
 }
 
 p{
-	width: 200px;
+	width: 190px;
 	font-family: 'Crimson Text', serif;
 	font-size: 12px;
 	color: #b66c17;
-	background-color: rgba(215, 204, 208, .9);
+	background-color: rgba(255, 225, 182, .9);
 	padding: 5px;
 }
+
+#header{
+	font-size: 15px;
+	font-family: 'Work Sans', sans-serif;
+	background-color: rgba(255, 225, 182, 0.9);
+	padding: 10px;
+	margin: auto;
+	width: 100px;
+	display: block;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+@media screen and (max-width: 900px){
+	#nav{
+		height: 200px;
+	}
+
+	#browser{
+		display: none;
+		margin-top: 25px;
+	}
+
+	#mobile{
+		display: block;
+		text-align: center;
+	}
+
+	h1{
+		text-align: center;
+		display: block;
+		margin: 0;
+		padding-top: 10px;
+	}
+
+	#types1, #types2{
+		width: 200px;
+		margin: auto;
+	
+	}
+	
+}
+

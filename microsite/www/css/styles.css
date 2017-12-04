@@ -5,8 +5,7 @@ h1{
 	font-size: 30px;
 	padding: 15px;
 	display: inline-block;
-	margin-top: 20px;
-	margin: 10;
+	margin-top: 23px;
 	padding: 0;
 	margin-left: 10px;
 
@@ -14,18 +13,23 @@ h1{
 
 #nav{
 	background-color: #ffe1b6;
-	margin-top: 20px;
+
+}
+
+html{
+	height: 100%
 
 }
 
 body{
 	margin: 0;
-	background-image: url("home.jpg");
+	background-image: url("home4.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
-ul{
+#browser{
 	margin-top: 30px;
 	float: right;
 	display: inline;
@@ -36,10 +40,23 @@ ul{
 	font-weight: 600;
 }
 
-li{
+#browser li{
 	display: inline;
 	padding: 24.5px 15px;
 	margin-top: 20px;
+
+}
+
+#mobile{
+	font-family: 'Work Sans', sans-serif;
+	list-style-type: none;
+	text-transform: uppercase;
+	color: #b66c17;
+	font-weight: 600;
+	display: none;
+}
+
+#mobile li{
 
 }
 
@@ -55,19 +72,70 @@ a.selected{
 
 img{
 	float: left;
-	width: 25%;
+	width: 350px;
+	margin-top: -350px;
 
 }
 
-p{
+#text{
 	width: 500px;
-	margin-left: 450px;
-	padding-top: 200px;
 	font-family: 'Crimson Text', serif;
-	color: #ffc75a;
-	font-size: 40px;
+	color: white;
+	font-size: 50px;
 	font-weight: 700;
 	text-align: center;
 	font-style: italic;
+	margin: auto;
+	margin-top: 300px;
 
+}
+
+@media screen and (max-width: 900px){
+	#nav{
+		height: 200px;
+	}
+
+	#browser{
+		display: none;
+		margin-top: 25px;
+	}
+
+	#mobile{
+		display: block;
+		text-align: center;
+	}
+
+	h1{
+		text-align: center;
+		display: block;
+		margin: 0;
+		padding-top: 10px;
+	}
+
+	p{
+		margin: auto;
+		font-size: 15px;
+		width: 200px;
+		margin-top: 400px;
+	}
+	
+}
+
+@media screen and (max-width: 1220px){
+	
+	p{
+		margin: auto;
+		font-size: 35px;
+		width: 200px;
+		margin-top: 400px;
+	}
+
+	img{
+		width: 250px;
+		margin: auto;
+		display: block;
+		float: none;
+		margin-top: -550px;
+
+	}
 }
